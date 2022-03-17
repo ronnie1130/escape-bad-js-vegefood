@@ -3,7 +3,6 @@
 const table = document.querySelector('.table-content');
 const url = 'https://hexschool.github.io/js-filter-data/data.json';
 let data;
-let axios;
 
 function renderData(item) {
   let str = '';
